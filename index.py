@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import openai
 from docx import Document
 

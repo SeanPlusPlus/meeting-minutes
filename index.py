@@ -103,7 +103,7 @@ def save_as_docx(minutes, filename):
     doc.save(filename)
 
 if __name__ == "__main__":
-    audio_file_path = "Earningscall.wav"
+    audio_file_path = "EarningsCall.wav"
     transcription = transcribe_audio(audio_file_path)
     minutes = meeting_minutes(transcription)
     print(minutes)
